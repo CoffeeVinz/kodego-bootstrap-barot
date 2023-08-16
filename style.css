@@ -1,0 +1,109 @@
+
+.s-content {
+    display: flex;
+}
+
+.s2 {
+    margin-left: 50px;
+}
+
+.card-img1, .card-img2, .card-img3 {
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.c1 {
+    width: 600px;
+    margin-left: 10px;
+}
+
+.c1 .card {
+    height: 600px;
+}
+
+.c2 .card{
+    height: 300px;
+}
+
+.c2 .card-img2 {
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.c2 .card-body {
+    margin: 0;
+    position: relative;
+    top: -30px;
+}
+
+.c3 .card{
+    height: 300px;
+}
+
+.c3 .card-img3 {
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.c3 .card-body {
+    margin: 0;
+    position: relative;
+    top: -30px;
+}
+
+.contact {
+    width: 500px;
+}
+
+#ct {
+    background-color: rgb(232, 221, 224);
+    margin: 0px;
+    border: 0px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .cf {
+    width: 700px;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid beige;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type="submit"] {
+    background-color: white;
+    color: black);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 45 0;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: white;
+    color: rgb(206, 62, 62);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .fcontainer {
+    border-radius: 5px;
+    background-color: rgb(206, 62, 62);
+    padding: 20px;
+    color: white;
+  }
